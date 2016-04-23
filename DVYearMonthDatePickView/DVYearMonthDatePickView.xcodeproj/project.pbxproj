@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		429B15601CCB87820008DD2F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 429B155F1CCB87820008DD2F /* main.m */; };
+		429B15631CCB87820008DD2F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 429B15621CCB87820008DD2F /* AppDelegate.m */; };
+		429B15661CCB87820008DD2F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 429B15651CCB87820008DD2F /* ViewController.m */; };
+		429B156B1CCB87820008DD2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 429B156A1CCB87820008DD2F /* Assets.xcassets */; };
+		429B156E1CCB87820008DD2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 429B156C1CCB87820008DD2F /* LaunchScreen.storyboard */; };
+		429B15791CCB87820008DD2F /* DVYearMonthDatePickViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 429B15781CCB87820008DD2F /* DVYearMonthDatePickViewTests.m */; };
+		429B15841CCB87820008DD2F /* DVYearMonthDatePickViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 429B15831CCB87820008DD2F /* DVYearMonthDatePickViewUITests.m */; };
+		429B15941CCB878C0008DD2F /* DVYearMonthDatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 429B15931CCB878C0008DD2F /* DVYearMonthDatePicker.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		429B15751CCB87820008DD2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 429B15531CCB87820008DD2F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 429B155A1CCB87820008DD2F;
+			remoteInfo = DVYearMonthDatePickView;
+		};
+		429B15801CCB87820008DD2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 429B15531CCB87820008DD2F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 429B155A1CCB87820008DD2F;
+			remoteInfo = DVYearMonthDatePickView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		429B155B1CCB87820008DD2F /* DVYearMonthDatePickView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DVYearMonthDatePickView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		429B155F1CCB87820008DD2F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		429B15611CCB87820008DD2F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		429B15621CCB87820008DD2F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		429B15641CCB87820008DD2F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		429B15651CCB87820008DD2F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		429B156A1CCB87820008DD2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		429B156D1CCB87820008DD2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		429B156F1CCB87820008DD2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		429B15741CCB87820008DD2F /* DVYearMonthDatePickViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DVYearMonthDatePickViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		429B15781CCB87820008DD2F /* DVYearMonthDatePickViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DVYearMonthDatePickViewTests.m; sourceTree = "<group>"; };
+		429B157A1CCB87820008DD2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		429B157F1CCB87820008DD2F /* DVYearMonthDatePickViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DVYearMonthDatePickViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		429B15831CCB87820008DD2F /* DVYearMonthDatePickViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DVYearMonthDatePickViewUITests.m; sourceTree = "<group>"; };
+		429B15851CCB87820008DD2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		429B15921CCB878C0008DD2F /* DVYearMonthDatePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVYearMonthDatePicker.h; sourceTree = "<group>"; };
+		429B15931CCB878C0008DD2F /* DVYearMonthDatePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DVYearMonthDatePicker.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		429B15581CCB87820008DD2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		429B15711CCB87820008DD2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		429B157C1CCB87820008DD2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		429B15521CCB87820008DD2F = {
+			isa = PBXGroup;
+			children = (
+				429B155D1CCB87820008DD2F /* DVYearMonthDatePickView */,
+				429B15771CCB87820008DD2F /* DVYearMonthDatePickViewTests */,
+				429B15821CCB87820008DD2F /* DVYearMonthDatePickViewUITests */,
+				429B155C1CCB87820008DD2F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		429B155C1CCB87820008DD2F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				429B155B1CCB87820008DD2F /* DVYearMonthDatePickView.app */,
+				429B15741CCB87820008DD2F /* DVYearMonthDatePickViewTests.xctest */,
+				429B157F1CCB87820008DD2F /* DVYearMonthDatePickViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		429B155D1CCB87820008DD2F /* DVYearMonthDatePickView */ = {
+			isa = PBXGroup;
+			children = (
+				429B15911CCB878C0008DD2F /* DVYearMonthDatePicker */,
+				429B15611CCB87820008DD2F /* AppDelegate.h */,
+				429B15621CCB87820008DD2F /* AppDelegate.m */,
+				429B15641CCB87820008DD2F /* ViewController.h */,
+				429B15651CCB87820008DD2F /* ViewController.m */,
+				429B156A1CCB87820008DD2F /* Assets.xcassets */,
+				429B156C1CCB87820008DD2F /* LaunchScreen.storyboard */,
+				429B156F1CCB87820008DD2F /* Info.plist */,
+				429B155E1CCB87820008DD2F /* Supporting Files */,
+			);
+			path = DVYearMonthDatePickView;
+			sourceTree = "<group>";
+		};
+		429B155E1CCB87820008DD2F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				429B155F1CCB87820008DD2F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		429B15771CCB87820008DD2F /* DVYearMonthDatePickViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				429B15781CCB87820008DD2F /* DVYearMonthDatePickViewTests.m */,
+				429B157A1CCB87820008DD2F /* Info.plist */,
+			);
+			path = DVYearMonthDatePickViewTests;
+			sourceTree = "<group>";
+		};
+		429B15821CCB87820008DD2F /* DVYearMonthDatePickViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				429B15831CCB87820008DD2F /* DVYearMonthDatePickViewUITests.m */,
+				429B15851CCB87820008DD2F /* Info.plist */,
+			);
+			path = DVYearMonthDatePickViewUITests;
+			sourceTree = "<group>";
+		};
+		429B15911CCB878C0008DD2F /* DVYearMonthDatePicker */ = {
+			isa = PBXGroup;
+			children = (
+				429B15921CCB878C0008DD2F /* DVYearMonthDatePicker.h */,
+				429B15931CCB878C0008DD2F /* DVYearMonthDatePicker.m */,
+			);
+			path = DVYearMonthDatePicker;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		429B155A1CCB87820008DD2F /* DVYearMonthDatePickView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 429B15881CCB87820008DD2F /* Build configuration list for PBXNativeTarget "DVYearMonthDatePickView" */;
+			buildPhases = (
+				429B15571CCB87820008DD2F /* Sources */,
+				429B15581CCB87820008DD2F /* Frameworks */,
+				429B15591CCB87820008DD2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DVYearMonthDatePickView;
+			productName = DVYearMonthDatePickView;
+			productReference = 429B155B1CCB87820008DD2F /* DVYearMonthDatePickView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		429B15731CCB87820008DD2F /* DVYearMonthDatePickViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 429B158B1CCB87820008DD2F /* Build configuration list for PBXNativeTarget "DVYearMonthDatePickViewTests" */;
+			buildPhases = (
+				429B15701CCB87820008DD2F /* Sources */,
+				429B15711CCB87820008DD2F /* Frameworks */,
+				429B15721CCB87820008DD2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				429B15761CCB87820008DD2F /* PBXTargetDependency */,
+			);
+			name = DVYearMonthDatePickViewTests;
+			productName = DVYearMonthDatePickViewTests;
+			productReference = 429B15741CCB87820008DD2F /* DVYearMonthDatePickViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		429B157E1CCB87820008DD2F /* DVYearMonthDatePickViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 429B158E1CCB87820008DD2F /* Build configuration list for PBXNativeTarget "DVYearMonthDatePickViewUITests" */;
+			buildPhases = (
+				429B157B1CCB87820008DD2F /* Sources */,
+				429B157C1CCB87820008DD2F /* Frameworks */,
+				429B157D1CCB87820008DD2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				429B15811CCB87820008DD2F /* PBXTargetDependency */,
+			);
+			name = DVYearMonthDatePickViewUITests;
+			productName = DVYearMonthDatePickViewUITests;
+			productReference = 429B157F1CCB87820008DD2F /* DVYearMonthDatePickViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		429B15531CCB87820008DD2F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Fire;
+				TargetAttributes = {
+					429B155A1CCB87820008DD2F = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = XGJ76H595T;
+					};
+					429B15731CCB87820008DD2F = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = XGJ76H595T;
+						TestTargetID = 429B155A1CCB87820008DD2F;
+					};
+					429B157E1CCB87820008DD2F = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = XGJ76H595T;
+						TestTargetID = 429B155A1CCB87820008DD2F;
+					};
+				};
+			};
+			buildConfigurationList = 429B15561CCB87820008DD2F /* Build configuration list for PBXProject "DVYearMonthDatePickView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 429B15521CCB87820008DD2F;
+			productRefGroup = 429B155C1CCB87820008DD2F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				429B155A1CCB87820008DD2F /* DVYearMonthDatePickView */,
+				429B15731CCB87820008DD2F /* DVYearMonthDatePickViewTests */,
+				429B157E1CCB87820008DD2F /* DVYearMonthDatePickViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		429B15591CCB87820008DD2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				429B156E1CCB87820008DD2F /* LaunchScreen.storyboard in Resources */,
+				429B156B1CCB87820008DD2F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		429B15721CCB87820008DD2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		429B157D1CCB87820008DD2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		429B15571CCB87820008DD2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				429B15661CCB87820008DD2F /* ViewController.m in Sources */,
+				429B15631CCB87820008DD2F /* AppDelegate.m in Sources */,
+				429B15601CCB87820008DD2F /* main.m in Sources */,
+				429B15941CCB878C0008DD2F /* DVYearMonthDatePicker.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		429B15701CCB87820008DD2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				429B15791CCB87820008DD2F /* DVYearMonthDatePickViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		429B157B1CCB87820008DD2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				429B15841CCB87820008DD2F /* DVYearMonthDatePickViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		429B15761CCB87820008DD2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 429B155A1CCB87820008DD2F /* DVYearMonthDatePickView */;
+			targetProxy = 429B15751CCB87820008DD2F /* PBXContainerItemProxy */;
+		};
+		429B15811CCB87820008DD2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 429B155A1CCB87820008DD2F /* DVYearMonthDatePickView */;
+			targetProxy = 429B15801CCB87820008DD2F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		429B156C1CCB87820008DD2F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				429B156D1CCB87820008DD2F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		429B15861CCB87820008DD2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		429B15871CCB87820008DD2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		429B15891CCB87820008DD2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DVYearMonthDatePickView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Sun.DVYearMonthDatePickView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		429B158A1CCB87820008DD2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DVYearMonthDatePickView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Sun.DVYearMonthDatePickView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		429B158C1CCB87820008DD2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DVYearMonthDatePickViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Sun.DVYearMonthDatePickViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DVYearMonthDatePickView.app/DVYearMonthDatePickView";
+			};
+			name = Debug;
+		};
+		429B158D1CCB87820008DD2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DVYearMonthDatePickViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Sun.DVYearMonthDatePickViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DVYearMonthDatePickView.app/DVYearMonthDatePickView";
+			};
+			name = Release;
+		};
+		429B158F1CCB87820008DD2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DVYearMonthDatePickViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Sun.DVYearMonthDatePickViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DVYearMonthDatePickView;
+			};
+			name = Debug;
+		};
+		429B15901CCB87820008DD2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DVYearMonthDatePickViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Sun.DVYearMonthDatePickViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DVYearMonthDatePickView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		429B15561CCB87820008DD2F /* Build configuration list for PBXProject "DVYearMonthDatePickView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				429B15861CCB87820008DD2F /* Debug */,
+				429B15871CCB87820008DD2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		429B15881CCB87820008DD2F /* Build configuration list for PBXNativeTarget "DVYearMonthDatePickView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				429B15891CCB87820008DD2F /* Debug */,
+				429B158A1CCB87820008DD2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		429B158B1CCB87820008DD2F /* Build configuration list for PBXNativeTarget "DVYearMonthDatePickViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				429B158C1CCB87820008DD2F /* Debug */,
+				429B158D1CCB87820008DD2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		429B158E1CCB87820008DD2F /* Build configuration list for PBXNativeTarget "DVYearMonthDatePickViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				429B158F1CCB87820008DD2F /* Debug */,
+				429B15901CCB87820008DD2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 429B15531CCB87820008DD2F /* Project object */;
+}
