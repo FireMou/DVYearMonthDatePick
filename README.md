@@ -3,7 +3,7 @@ A PickerView For Year And Month
 
 简要描述
 ---------------------
-这是一个很简单的框架，用来选择年和月，因为Apple自带的UIDatePicker不支持只选择年和月，所以写了一个选择控件，分享给大家
+这是一个很简单的框架，用来选择年和月，因为Apple自带的UIDatePicker不支持只选择年和月，所以写了一个选择控件，分享给大家。这个框架是模仿“IgorFedorchuk”的“MonthYearDatePicker”来写的，因为这个框架本身是偏好于外国人的习惯，所以我进行了一些更改，让它更适应中国人的选择控件的习惯。希望大家喜欢
 
 ![img](http://d.pr/i/16n8m+ "img")
 
